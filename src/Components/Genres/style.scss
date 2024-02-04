@@ -1,0 +1,13 @@
+.genres {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    .genre {
+        background-color: var(--pink);
+        padding: 3px 5px;
+        font-size: 12px;
+        border-radius: 4px;
+        color: white;
+        white-space: nowrap; // if text is lengthy thin word will not break
+    }
+}
