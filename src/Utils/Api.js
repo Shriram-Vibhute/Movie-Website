@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const BASE_URL = "https://api.themoviedb.org/3";
-const API_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1YjUzYmNmZjM3YWZmZDM4MzE3NzljMjZmNTAxMmEzNyIsInN1YiI6IjY1ODY3NmQzNGRhM2Q0NjNhMTQxNjk1YyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Xn1hcmahzgYPomtdBeQbnYP02Nj6xw48YWpObLUY67s";
+const BASE_URL = // Your Base Url
+const API_TOKEN = // Your Api Token
 
 const headers = {
     Authorization: `Bearer ${API_TOKEN}`,
